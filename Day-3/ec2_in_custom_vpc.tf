@@ -1,4 +1,4 @@
-/*terraform {
+terraform {
   required_providers {
     aws = {
         source = "hashicorp/aws"
@@ -29,4 +29,3 @@ resource "aws_instance" "myec2instance" {
   instance_type = "t2.micro"
   subnet_id = aws_subnet.my_subnet.id
 }
-*/
