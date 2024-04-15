@@ -1,4 +1,4 @@
-provider "aws" {
+/*provider "aws" {
   region = "us-west-2"
 }
 
@@ -9,4 +9,4 @@ resource "aws_instance" "my_instance" {
   tags = {
     Name = "Server-1"
   }
-}
+}*/
