@@ -1,0 +1,5 @@
+vpccidr_value = "192.0.0.0/16"
+vpc_tagname = "PreprodVpc"
+subnet_cidr_value = "192.0.0.0/24"
+subnet_availability_zone = "ap-south-1b"
+subnet_name = "Preprod-subnet"
