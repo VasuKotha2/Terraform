@@ -26,7 +26,7 @@ output "output_list_type_var" {
 
 
 
-output "output_list_type_var" {
+output "output_list_type_var2" {
   value = var.list_type_var[4]
 }
 
@@ -47,7 +47,7 @@ output "output_2nc_index_of_list" {
 
 
 output "output_environment_key_from_map_type_var" {
-  value = var.map_type_var[]
+  value = var.map_type_var["bool_type"]
 }
 
 output "output_environment_key_from_map_type_var2" {
@@ -66,7 +66,7 @@ output "specific_key_from_any_type_example_02_var" {
 }
 
 
-output "specific_key_from_any_type_example_02_var" {
+output "specific_key_from_any_type_example_02_var2" {
   value = var.any_type_example_02_var.resources_by_category.monitoring.logs[0]
 }
 
