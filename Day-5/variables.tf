@@ -1,4 +1,4 @@
-/*variable "string_type_var" {
+variable "string_type_var" {
   type = string
   description = "example of a string type variable"
   default = "value"
@@ -17,7 +17,7 @@ variable "number_type_ex_02_var" {
   description = "another example of a number type variable"
   default = "100"
 }
-*/
+
 
 #invalid number type
 
@@ -28,20 +28,20 @@ variable "number_type_ex_02_var" {
 }
 */
 
-/*
+
 variable "boolean_type_var" {
   type = bool
   description = "example of a bool type variable"
   default = true // "true"
 }
-*/
-/*
+
+
 variable "list_type_var" {
   type = list(string)
   description = "example of a list of string type variable"
   default = [ "value", "one", "100", true, 100 ]
 }
-*/
+
 # list type invalid
 /*
 variable "list_type_var_invalid" {
@@ -59,7 +59,7 @@ variable "list_any_type_var" {
 }
 */
 
-/*
+
 variable "map_type_var" {
   type = map
   description = "example of a map type variable"
@@ -70,8 +70,8 @@ variable "map_type_var" {
     project = "learning aws"
   }
 }
-*/
-/*
+
+
 variable "any_type_example_02_var" {
   type = any
   description = "another example of a complex map type variable"
@@ -92,7 +92,7 @@ variable "any_type_example_02_var" {
     }
   }
 }
-*/
+
 
 variable "object_type_var" {
   description = "describe your variable"
