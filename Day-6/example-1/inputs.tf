@@ -4,6 +4,6 @@ variable "instance_type" {
 }
 
 variable "instance_name" {
-  type = string
-  default = "server"
+  type = list(string)
+  default = ["web","app"]
 }
